@@ -3,7 +3,7 @@
         {
             "args": {
                 "image": {
-                    "name": "^cirros.*-disk$"
+                    "name": "{{image_name}}"
                 },
                 "metadata": {
                     "test_metadata": "true"

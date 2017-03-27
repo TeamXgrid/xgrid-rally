@@ -4,7 +4,10 @@
       "args": {
         "template_path": "samples/tasks/scenarios/heat/templates/autoscaling-group.yaml.template",
         "output_key": "scaling_url",
-        "delta": 1
+        "delta": 1,
+        "parameters" : {
+          "image": "{{image_name}}"
+        }
       },
       "runner": {
         "type": "constant",

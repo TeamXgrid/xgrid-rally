@@ -1,0 +1,16 @@
+create-and-delete-stack.json
+create-and-delete-stack-with-delay.json
+create-and-list-stack.json
+create-check-delete-stack.json
+create-snapshot-restore-delete-stack.json
+create-stack-and-list-output-resource-group.json
+create-stack-and-show-output-resource-group.json
+create-suspend-resume-delete-stack.json
+create-update-delete-stack-add-res.json
+create-update-delete-stack-del-res.json
+create-update-delete-stack-increase.json
+create-update-delete-stack-inplace.json
+create-update-delete-stack-reduce.json
+create-update-delete-stack-replace.json
+list-stack-and-event.json
+list-stack-and-resources.json

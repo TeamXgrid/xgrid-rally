@@ -1,4 +1,4 @@
-{% set flavor_name = flavor_name or "m1.tiny" %}
+{% set flavor_name = flavor_name or "m1.micro" %}
 {
     "NovaServers.boot_and_delete_server": [
         {
@@ -7,7 +7,7 @@
                     "name": "{{flavor_name}}"
                 },
                 "image": {
-                    "name": "^cirros.*-disk$"
+                    "name": "{{image_name}}"
                 },
                 "force_delete": false
             },
@@ -29,7 +29,7 @@
                     "name": "{{flavor_name}}"
                 },
                 "image": {
-                    "name": "^cirros.*-disk$"
+                    "name": "{{image_name}}"
                 },
                 "auto_assign_nic": true
             },

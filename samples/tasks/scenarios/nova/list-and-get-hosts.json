@@ -1,7 +1,9 @@
 {
   "NovaHosts.list_and_get_hosts": [
     {
-      "args": {},
+      "args": {
+        "zone": "nova"
+       },
       "runner": {
         "type": "constant",
         "concurrency": 2,

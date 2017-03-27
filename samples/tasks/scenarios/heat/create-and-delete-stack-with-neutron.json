@@ -2,7 +2,10 @@
     "HeatStacks.create_and_delete_stack": [
         {
             "args": {
-               "template_path": "samples/tasks/scenarios/heat/templates/server-with-ports.yaml.template"
+               "template_path": "samples/tasks/scenarios/heat/templates/server-with-ports.yaml.template",
+               "parameters": {
+                 "image":"{{image_name}}"
+             }
             },
             "runner": {
                 "type": "constant",

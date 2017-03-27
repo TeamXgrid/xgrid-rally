@@ -7,7 +7,7 @@
                     "name": "{{flavor_name}}"
                 },
                 "image": {
-                    "name": "^cirros.*-disk$"
+                    "name": "{{image_name}}"
                 },
                 "detailed": true
             },

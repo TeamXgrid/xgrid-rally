@@ -7,10 +7,10 @@
                     "name": "{{flavor_name}}"
                 },
                 "from_image": {
-                    "name": "^cirros.*-disk$"
+                    "name": "{{image_name}}"
                 },
                 "to_image": {
-                    "name": "^cirros.*-disk$"
+                    "name": "{{image_name}}"
                 }
             },
             "runner": {

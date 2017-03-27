@@ -20,7 +20,7 @@
                         "name": "{{flavor_name}}"
                     },
                     "image": {
-                        "name": "^cirros.*-disk$"
+                        "name": "{{image_name}}"
                     },
                     "servers_per_tenant": 2
                 }
